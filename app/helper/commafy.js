@@ -5,3 +5,4 @@ export default commafy = (num) => {
     }
     return str.join('.');
 };
+

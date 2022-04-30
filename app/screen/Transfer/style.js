@@ -131,10 +131,15 @@ export default styles = StyleSheet.create({
         paddingTop: 20
 
     },
-
     container: {
         height: "100%",
         flex: 1
+    },
+    sucContainer: {
+        height: "100%",
+        flex: 1,
+        paddingHorizontal: 18,
+        justifyContent: "center"
     },
     innerView: {
         marginTop: -50,

@@ -11,9 +11,10 @@ import Bank from "./Bank";
 
 
 const Transfer = (props) => {
-
     const details = props.route.params?.item;
     const goBack = () => props.navigation.goBack();
+    const test= "(\d)(?=(\d{3})+$)";
+    let num;
 
     const transferState = {
         amount: "",
@@ -136,10 +137,11 @@ const Transfer = (props) => {
                                             <InputField
                                                 value={props.values.amount}
                                                 onBlur={props.handleBlur('amount')}
-                                                placeholder="2000"
+                                                placeholder="2,000"
                                                 placeholderTextColor="#757575"
                                                 keyboardType="number-pad"
                                                 onChangeText={(val) => {
+                                                   
                                                     props.setFieldValue('amount', val)
                                                     props.setFieldTouched('amount', true, false);
                                                 }}

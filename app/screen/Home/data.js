@@ -2,13 +2,13 @@ export default data = {
     account: [
         {
             id: "1",
-            number: "0893333122",
+            number: "0767333122",
             balance: 80000,
 
         },
         {
             id: "2",
-            number: "0893333122",
+            number: "0893333100",
             balance: 7880000,
         },
         {

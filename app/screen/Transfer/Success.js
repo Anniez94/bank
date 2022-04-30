@@ -23,8 +23,8 @@ const Success = (props) => {
      }, []);
 
     return (
-        <View>
-            <Text style={styles.accBal}>Transaction Successful</Text>
+        <View style={styles.sucContainer}>
+            <Text style={[styles.accBal, {textAlign: "center"}]}>Transaction Successful</Text>
             <View style={styles.btnCover}>
             <Btn onPress={goBack} title="Done"/>
             </View>

@@ -49,7 +49,6 @@ const StackNavigator = () => {
                     ?
                     RootStackNavigator()
                     :
-                    // RootStackNavigator()
                     LoginStackNavigator()
             }      
         </Stack.Navigator>
